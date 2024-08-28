@@ -2,7 +2,7 @@
 import pandas as pd
 
 %load_ext autoreload
-#%autoreload 2
+%autoreload 2
 import sys
 sys.path.append("..")
 
