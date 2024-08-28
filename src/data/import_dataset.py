@@ -1,5 +1,3 @@
-# https://colab.research.google.com/drive/1rcUc9o7V1UvqBzkUXA4SI7HMNr3PopaV
-
 
 import pandas as pd
 
