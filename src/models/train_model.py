@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import f1_score
 
-taxi_train = pd.read_csv("./data/processed/taxi_train_100000_filas.csv")
+taxi_train = pd.read_csv("./data/processed/taxi_train_1000000_filas.csv")
 
 numeric_feat = [
     "pickup_weekday",
