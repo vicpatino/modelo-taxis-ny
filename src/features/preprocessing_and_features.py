@@ -59,7 +59,7 @@ taxi = load_data(2020,1)
 target_col = "high_tip"
 taxi_train = preprocess(df=taxi, target_col=target_col)
 
-# tomamos 100.000 primeras filas para entrenar, pues dataset es muy extenso y training puede tardar demasiado
-taxi_train = taxi_train.head(100000)
+# tomamos 1 millón de filas aleatorias para entrenar, pues dataset es muy extenso y training puede tardar demasiado
+taxi_train = taxi_train.sample(1000000)
 
-# archivo para train se alojó en la carpeta data -->processed --> taxi_train_100000_filas.csv
+# archivo para train se alojó en la carpeta data -->processed --> taxi_train_1000000_filas.csv
